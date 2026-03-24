@@ -90,6 +90,7 @@ The project is based on the following notebooks:
 ## How to Run the Code
 
 To reproduce the project, run the notebooks in the same order as shown above.
+Basically, we only need the 3 notebooks and the dataset 20250411. The rest will be created by the executed code
 
 ```bash
 git clone https://github.com/Ushindi-Trj/CS4020-USN-spring-2026
