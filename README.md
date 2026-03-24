@@ -70,7 +70,6 @@ RGB imagery was selected to simplify preprocessing and to remain compatible with
 ├── yolov8n.pt
 ├── yolov8s.pt
 ├── Report.pdf
-├── README.pdf
 ├── README.md
 └── Presentation.pdf
 ```
@@ -91,6 +90,17 @@ The project is based on the following notebooks:
 
 To reproduce the project, run the notebooks in the same order as shown above.
 Basically, we only need the 3 notebooks and the dataset 20250411. The rest will be created by the executed code
+
+The dataset folder is the pre-processed data. This data is generated after running the first notebook.
+20250411 is the original latest flight data **`flight_20250411`**. Both original and preprocessed data weight 53GB and 11GB. Which makes it impossible to publish on Github. Down i am going to show how to download the flight_20250411 data.
+
+1. First navigate to https://www.sciencedirect.com/science/article/pii/S2352340925009977
+2. And then scroll to **`Data Availability`** then click on the first link **`CampanetaWeeds2(Original data) (Zenodo)`**.
+3. That will lead you to https://zenodo.org/records/17214769
+4. Then click on Download button.
+5. After the download finished, unzip and rename **`flight_20250411`** to **`20250411`**
+6. Place **`20250411`** in the root folder of the cloned Project
+7. Run the first notebook
 
 ```bash
 git clone https://github.com/Ushindi-Trj/CS4020-USN-spring-2026
