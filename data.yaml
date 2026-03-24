@@ -1,0 +1,15 @@
+
+path: ./dataset
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: weed_1
+  1: weed_2
+  2: weed_3
+  3: weed_4
+  4: weed_5
+  5: weed_6
+  6: weed_7
